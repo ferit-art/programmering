@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Uppgift_3 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		System.out.print(" Skriv in din ålder om du är under 50 boomer: ");
+
+	    int alder = input.nextInt();
+
+		if ( ) {
+			System.out.println(" Mata in andra talet igen");
+			tal_2 = input.nextInt();
+
+			System.out.println("Kvoten = " + kvoten_2);
+		}else {
+			System.out.println("Kvoten = " + kvoten);
+
+		}
+	}
+}

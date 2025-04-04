@@ -1,0 +1,22 @@
+package uppgift_5;
+import java.awt.*;
+import javax.swing.JFrame;
+
+public class uppgift_5 extends JFrame{
+	private static final long serialVersionUID = 1L;
+
+	public uppgift_5(){   	
+      	setSize(400, 300);
+      	setVisible(true);
+ 	}
+ 	
+ 	public void paint(Graphics g){;
+      	g.setColor(Color.black);
+      	g.fillRect(10,30,100,100);
+ 	}
+ 
+ 	public static void main(String[] args) {
+      	new Square();
+ 	}
+
+}
