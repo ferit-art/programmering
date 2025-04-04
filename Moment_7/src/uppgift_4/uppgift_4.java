@@ -1,0 +1,35 @@
+package uppgift_4;
+
+public class uppgift_4 {
+	private String name;
+	private String ssn;
+	private String phone; 
+
+	public uppgift_4(String name, String ssn, String phone){
+		this.name = name;
+		this.ssn = ssn;
+		this.phone = phone;
+	}
+
+	public void setPhone(String phone){
+		this.phone = phone;
+	}
+	
+	public String getName(){
+		return this.name;
+	}
+	
+	public String getSsn(){
+		return this.ssn;
+	}
+
+	public String getPhone(){
+		return this.phone;
+	}
+	
+	public void printInfo(){
+		System.out.println("Namn: " + name);
+		System.out.println("Personnummer: " + ssn);
+		System.out.println("Mobilnummer: " + phone);
+	}
+}

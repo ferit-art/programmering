@@ -1,0 +1,17 @@
+package uppgifter;
+
+public class uppgift_4 {
+	public String name;
+	public int age;
+	
+	public uppgift_4(String name, int age){
+    	   this.name = name;
+    	   this.age = age;
+	}
+	
+	public void printInfo(){
+    	   System.out.println("Namn: " + name);
+    	   System.out.println("Ålder: " + age);
+	}
+
+}

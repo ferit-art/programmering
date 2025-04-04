@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Uppgift_3 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		System.out.print(" Skriv in din ålder boomer: ");
+
+		int alder = input.nextInt();
+
+		if ( alder < 50 && alder > 35 ) {
+
+			System.out.print(" Okej, du är en riktig medelåldrig boomer jag erkänner det... ");
+		}else {
+
+			System.out.print(" Naaah, inte riktigt medelåldrig utan äldre eller yngre boomer ärrruuu... ");
+		}
+	}
+}

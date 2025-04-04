@@ -1,0 +1,22 @@
+package uppgifter;
+
+public class uppgift_3_personTest {
+	public static void main(String[] args){
+
+		uppgift_3_person person1 = new uppgift_3_person();
+		uppgift_3_person person2 = new uppgift_3_person();
+
+		person1.name = "Nega Olle Balle";
+		person1.ssn = "8501234567";
+		person1.phone = "0701234567";
+		
+		person2.name = "Alez bajsson";
+		person2.ssn = "8501234567";
+		person2.phone = "0701234567";
+
+		person1.printInfo();
+		person2.printInfo();
+	}
+}
+
+

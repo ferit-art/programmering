@@ -1,0 +1,29 @@
+package uppgifter;
+
+public class uppgift_4 {
+	private String name;
+	private String ssn;
+	private String phone; 
+
+	public uppgift_4(String name, String ssn, String phone){
+		this.name = name;
+		this.ssn = ssn;
+		this.phone = phone;
+	}
+
+	public void setSsn(int ssn){
+		this.ssn = ssn;
+	}
+
+	/** Åtkomstmetod, get-metod */
+	public int getAge(){
+		return this.age;
+	}
+
+	public void printInfo(){
+		System.out.println("Namn: " + name);
+		System.out.println("Ålder: " + age);
+	}
+
+
+}

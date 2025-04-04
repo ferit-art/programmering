@@ -1,0 +1,24 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Uppgift_2 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		System.out.print(" Mata in två olika tal: ");
+		int tal_1 = 0 ;
+		int tal_2 = 0 ;
+		
+		
+		try{
+			tal_1 = input.nextInt();
+			tal_2 = input.nextInt();
+		}catch(InputMismatchException ime){
+			System.out.println("Fel inmatning, försök igen");
+		}
+		
+		int kvoten = tal_1 / tal_2 ;
+		System.out.println("Kvoten = " + kvoten);
+
+	}
+}

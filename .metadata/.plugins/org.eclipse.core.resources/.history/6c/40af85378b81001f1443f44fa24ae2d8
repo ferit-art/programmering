@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Uppgift_2 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int tal_1 = 0;
+		int tal_2 = 0;
+		int kvoten = 0;
+		int kvoten_2 = 0;
+
+		System.out.print(" Mata in två heltal: ");
+
+		try{
+			tal_1 = input.nextInt();
+			tal_2 = input.nextInt();
+			kvoten = tal_1 / tal_2 ;
+		}catch(Exception e){
+			System.out.println("Fel inmatning eller nolldivition");
+		}
+
+		if ( tal_1 / tal_2 == 0) {
+			System.out.println(" Mata in andra talet igen");
+			tal_2 = input.nextInt();
+
+			System.out.println("Kvoten = " + kvoten_2);
+		}else {
+			System.out.println("Kvoten = " + kvoten);
+
+		}
+	}
+}

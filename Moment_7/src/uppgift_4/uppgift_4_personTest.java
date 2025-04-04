@@ -1,0 +1,25 @@
+package uppgift_4;
+
+public class uppgift_4_personTest {
+	public static void main(String[] args){
+
+		uppgift_4 person1 = new uppgift_4("Henrik Bygren", "4812740813", "2323923");
+		uppgift_4 person2 = new uppgift_4("Eva Larsson", "323232323", "23322323");
+		
+		person1.printInfo();
+		person2.printInfo();
+		
+		String n = person2.getName();
+		System.out.println(n);
+		
+		String a = person2.getPhone();
+		System.out.println(a);
+		
+		String b = person2.getSsn();
+		System.out.println(b);
+		
+		person1.setPhone("Ferit Bat");
+		person1.printInfo();
+	}
+
+}

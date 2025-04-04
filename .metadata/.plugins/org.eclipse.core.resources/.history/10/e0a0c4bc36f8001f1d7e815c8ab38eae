@@ -1,0 +1,13 @@
+package uppgifter;
+
+public class uppgift_3 {
+	public String name;
+	public String ssn;
+    public String phone;
+    
+	public void printInfo(){
+		System.out.println("Namn: " + name);
+		System.out.println("Personnummer: " + ssn);
+		System.out.println("Mobilnummer: " + phone);
+	}
+}
