@@ -4,3 +4,5 @@
 bin/
 build/
 build.fxbuild
+.metadata/
+.vscode/
