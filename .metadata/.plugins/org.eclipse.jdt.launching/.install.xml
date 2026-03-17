@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<dirs>
-    <entry loc="/usr/lib/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.3.v20240426-1530" stamp="1724077425253"/>
-    <entry loc="/usr/lib/jvm/java-22-openjdk" stamp="1724077263147"/>
-    <entry loc="/usr/lib/jvm/java-17-openjdk" stamp="1739459539109"/>
-    <entry loc="/usr/lib/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.3.v20240426-1530/jre" stamp="1724077425550"/>
-    <entry loc="/usr/lib/jvm/java-23-openjdk" stamp="1739459537759"/>
-</dirs>
